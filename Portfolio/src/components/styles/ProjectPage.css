@@ -1,0 +1,73 @@
+a{
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+a:link{
+    color: whitesmoke;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: silver;
+}
+.workContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+/*How each project is displayed in the website.*/
+#project{
+    /* display: flex;
+    flex-wrap: row;
+    position: relative;
+    align-items: center;
+    margin-top: 25px; */
+    background-image: url(../Images/project1.png);
+    /* height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase; */
+}
+#project2{
+    /* display: flex;
+    flex-wrap: row;
+    position: relative;
+    align-items: center;
+    margin-top: 25px; */
+    background-image: url(../Images/project2.png);
+    /* height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase; */
+}
+
+#project3{
+    /* display: flex;
+    flex-wrap: row;
+    position: relative;
+    align-items: center;
+    margin-top: 25px; */
+    background-image: url(../Images/project3.png);
+    /* height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase; */
+}
+#paragraph{
+    margin-top: 100px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+#github{
+    width: 25px;
+    height: 25px;
+}
