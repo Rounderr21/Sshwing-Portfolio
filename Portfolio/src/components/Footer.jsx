@@ -10,8 +10,8 @@ import "./styles/Footer.css";
 export default function Footer() {
     // The Navbar UI component will render each of the Link elements in the links prop
     return (
-<div className="Container">
-<div>
+<div className="Footer">
+<div className="Foot">
     <ol className="neonText flicker"> Find me on other platforms:
     <ul><a href="https://github.com/Rounderr21"><img id="github" src={githubImage} alt="Github account" /></a></ul>
     <ul><a href="https://www.linkedin.com/in/cody-schwengler/"><img id="linkedin" src={linkedinImage} alt="Linkedin account" /></a></ul>
