@@ -1,0 +1,20 @@
+.Footer {
+  display: flex;
+  color: whitesmoke;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.Foot{
+  display: inline-block;
+}
+
+#github,
+#linkedin,
+#instagram,
+#facebook,
+#bloodhaven {
+  width: 25px;
+  height: 25px;
+  margin-top: 25px;
+}
